@@ -1,0 +1,10 @@
+Report Number,Vehicle Number,Year,Make,Model,Color,Traveling on Street,Traveling Direction,Maneuver
+5000001,1,2017,HOND,ACCORD,WHT,NW 14th Street,North,Straight Ahead
+5000001,2,2020,TESL,MODEL S,RED,NW 2nd Avenue,West,Turning Left
+5000002,1,1968,PONT,FIREBIRD,WHT,SR-24,East,Turning Left
+5000002,2,1984,CHEV,CAMARO,BLU,SR-24,West,Straight Ahead
+5000003,1,2008,FORD,EXPEDITION,BLK,SW 34th Street,North,Straight Ahead
+5000003,2,2018,GMC,YUKON,GRN,SW 34th Street,North,Turning Right
+5000004,1,2016,FORD,TRANSIT,SIL,I-75,North,Straight Ahead
+5000005,1,2019,JEEP,CHEROKEE,BLK,Target Parking Lot,East,Backing
+5000005,2,2021,MERC,E300,WHT,Target Parking Lot,South,Straight Ahead

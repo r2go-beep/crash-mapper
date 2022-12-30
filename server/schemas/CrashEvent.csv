@@ -1,0 +1,6 @@
+Report Number,Crash Date,Crash Time,County,City,Investigating Agency,On Street,Offset Feet,Offset Direction,From Intersecting Street,Crash Severity,Latitude,Longitude
+5000001,05/01/2021,11:12 AM,Alachua,Gainesville,Gainesville Police Department,NW 14th Street,,,NW 2nd Avenue,Property Damage Only,29.65336,-82.340477
+5000002,05/01/2021,03:58 PM,Alachua,Gainesville,Florida Highway Patrol,SR-24,,,SW 34th Street,Serious Injury,29.627061,-82.372452
+5000003,05/01/2021,04:08 PM,Alachua,Gainesville,Gainesville Police Department,SW 34th Street,150,North,SW Archer Road,Injury,29.627653,-82.37244
+5000004,05/01/2021,05:15 PM,Alachua,Unincorporated,Florida Highway Patrol,I-75,3000,North,SR-24,Fatal,29.623165,-82.390096
+5000005,05/01/2021,06:11 PM,Alachua,Unincorporated,Alachua County Sheriff's Office,3970 SW Archer Road (Parking Lot),,,,Property Damage Only,29.620315,-82.384064

@@ -1,0 +1,10 @@
+Report Number,Vehicle Number,Person Number,Injury Severity,Sex,Age,Restraint Systems
+5000001,1,1,None,M,62,Shoulder & Lap Belts
+5000001,2,3,None,F,26,Shoulder & Lap Belts
+5000002,1,1,Injury,F,56,Lap Belt Only
+5000002,2,2,Serious Injury,M,68,None Used
+5000003,1,1,None,M,22,Shoulder & Lap Belts
+5000003,2,2,Injury,F,19,Shoulder & Lap Belts
+5000004,1,1,Fatal,M,29,None Used
+5000005,1,1,None,F,18,Shoulder & Lap Belts
+5000005,2,2,None,M,34,Shoulder & Lap Belts

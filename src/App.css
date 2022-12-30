@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -7,32 +8,134 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  flex-direction: column; 
+}
+
+
+.crash-info-container {
+  z-index: 5;
+  bottom: 0;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  padding-inline: 10px;
+  position: fixed;
+
+
+  text-align: left;
+  background-color: #C66464;
+  border-radius: 10px;
+
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.Float-left {
+  float:left;
+  width: 40%;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.Float-right {
+  float:left;
+  width: 60%;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
 }
 
 .App-header {
+  width: 100%;
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  height: 40px;
+
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.Section-header {
+  background-color: #C66464;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Grid-item-topleft{
+  font-size: 16px;
+  grid-area: topleft;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Grid-item-topright{
+  font-size: 16px;
+  grid-area: topright;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Grid-item-bottomleft{
+  font-size: 16px;
+  grid-area: bottomleft;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Grid-item-bottomright{
+  font-size: 16px;
+  grid-area: bottomright;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Grid-container {
+  flex:1;
+  display: grid;
+  margin-top: 10px;
+  width: 100%;
+  padding-bottom: 15px;
+  grid-template-columns: 50% 50% 5px 5px;
+  grid-template-rows: auto;
+  row-gap: 15px;
+  font-size: calc(10px + 1vmin);
+  grid-template-areas: 
+    "topleft topright"
+    "bottomleft bottomright";
+}
+
+.Diagrams {
+  flex: 1;
+  width: 100%;
+  display: flex;
+}
+
+.Diagrams-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7EBDC3;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
